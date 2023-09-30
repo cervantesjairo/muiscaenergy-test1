@@ -58,5 +58,13 @@ if __name__ == '__main__':
         long_description=open('README.md').read(),
         packages=find_packages(),
         zip_safe=False,
-        install_requires=[],
+        install_requires=['timezonefinder >= 6.2.0',
+                          'pandas >= 1.5.3',
+                          ],
+        extras_require={
+            'dev': ["pytest >= 7.0",
+                    "twine >= 4.0.2",
+                    ],
+        },
+        python_requires='>=3.10',
     )

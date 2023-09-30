@@ -45,6 +45,5 @@ class TimeSeriesTest(unittest.TestCase):
         self.assertTrue('datetime_local_from' in df.columns)
         self.assertTrue('datetime_local_to' in df.columns)
 
-#
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
