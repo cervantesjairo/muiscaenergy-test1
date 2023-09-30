@@ -53,7 +53,7 @@ if __name__ == '__main__':
         author=find_meta('author'),
         emai=find_meta('email'),
         description=find_meta('description'),
-        # license=find_meta('license'),
+        license=find_meta('license'),
         long_description=open('README.md').read(),
         packages=find_packages(),
         zip_safe=False,
