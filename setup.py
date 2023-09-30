@@ -4,6 +4,7 @@ import re
 import codecs
 
 # python setup.py sdist bdist_wheel
+# https://pypi.org/project/muisca1492-commom
 
 NAME = 'common'
 META_PATH = os.path.join(NAME, '__init__.py')
