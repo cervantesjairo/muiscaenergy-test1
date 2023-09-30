@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime
-from iso.common.src.timeseries.series_base import TimeSeries as TS
+from iso.timeseries.series_base import TimeSeries as TS
 
 
 class TimeSeriesTest(unittest.TestCase):
