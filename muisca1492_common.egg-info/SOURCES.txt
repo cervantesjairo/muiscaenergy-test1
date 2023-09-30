@@ -13,4 +13,5 @@ muisca1492_common.egg-info/PKG-INFO
 muisca1492_common.egg-info/SOURCES.txt
 muisca1492_common.egg-info/dependency_links.txt
 muisca1492_common.egg-info/not-zip-safe
+muisca1492_common.egg-info/requires.txt
 muisca1492_common.egg-info/top_level.txt
