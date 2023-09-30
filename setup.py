@@ -47,7 +47,7 @@ def find_meta(meta):
 
 if __name__ == '__main__':
     setup(
-        name='iso',
+        name='muisca1492_common',
         version=find_meta('version'),
         url=find_meta('url'),
         author=find_meta('author'),
