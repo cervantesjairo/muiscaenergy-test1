@@ -3,6 +3,8 @@ import os
 import re
 import codecs
 
+# python setup.py sdist bdist_wheel
+
 NAME = 'iso'
 META_PATH = os.path.join(NAME, '__init__.py')
 REQUIREMENTS = []
