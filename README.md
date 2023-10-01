@@ -6,7 +6,7 @@ Common functions for muiscaenergy projects.
 Example usage:
 
     from datetime import datetime
-    from muiscaenergy_common.src.timeseries.series_base import TimeSeries as TS
+    from muiscaenergy_common.src.timeseries.series_base import TimeSeries
 
     # Create a TimeSeries instance
     ts = TimeSeries(ts_from=datetime(2023, 9, 30, 12, 0, 0),
