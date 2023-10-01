@@ -24,3 +24,11 @@ Example usage:
 
      # Generate a time series for a specific geographical location
      df = ts.get_by_latlon()
+
+
+## Learning Material
+# Espanol
+https://www.youtube.com/watch?v=AczMuVzUrkE&ab_channel=SebastianBelmonte
+
+# English
+https://www.youtube.com/watch?v=5KEObONUkik&ab_channel=ArjanCodes
