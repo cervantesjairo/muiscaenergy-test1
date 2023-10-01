@@ -4,6 +4,8 @@ import re
 import codecs
 
 # python setup.py sdist bdist_wheel --> creates egg, build, dist
+# commit and push to github
+# twine check dist/* --> check if the package is ok
 # twine upload dist/* --> upload to pypi
 # https://pypi.org/project/muiscaenergy-commom/
 
@@ -56,7 +58,8 @@ if __name__ == '__main__':
         emai=find_meta('email'),
         description=find_meta('description'),
         license=find_meta('license'),
-        # long_description=open('README.md').read(),
+        long_description=open('README.md', 'r').read(),
+        long_description_content_type='text/markdown',
         packages=find_packages(),
         zip_safe=False,
         install_requires=['timezonefinder >= 6.2.0',
