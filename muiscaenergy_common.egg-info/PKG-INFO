@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: muiscaenergy-common
 Version: 0.0.1
 Summary: common functions for muiscaenergy projects
-Home-page: https://github.com/cervantesjairo/ISO
+Home-page: https://pypi.org/project/muiscaenergy-common/
 Author: Jairo Hernando Cervantes Garcia
 License: MIT license
 Requires-Python: >=3.10
