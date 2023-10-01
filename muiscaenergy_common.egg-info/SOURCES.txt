@@ -9,9 +9,9 @@ common/test/__init__.py
 common/test/run_test.py
 common/test/timeseries/__init__.py
 common/test/timeseries/series_base.py
-muisca1492_common.egg-info/PKG-INFO
-muisca1492_common.egg-info/SOURCES.txt
-muisca1492_common.egg-info/dependency_links.txt
-muisca1492_common.egg-info/not-zip-safe
-muisca1492_common.egg-info/requires.txt
-muisca1492_common.egg-info/top_level.txt
+muiscaenergy_common.egg-info/PKG-INFO
+muiscaenergy_common.egg-info/SOURCES.txt
+muiscaenergy_common.egg-info/dependency_links.txt
+muiscaenergy_common.egg-info/not-zip-safe
+muiscaenergy_common.egg-info/requires.txt
+muiscaenergy_common.egg-info/top_level.txt
