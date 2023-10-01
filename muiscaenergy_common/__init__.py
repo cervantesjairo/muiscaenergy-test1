@@ -1,5 +1,5 @@
-__title__ = 'common'
-__version__ = '0.0.1'
+__title__ = 'muiscaenergy_common'
+__version__ = '0.0.2'
 __author__ = 'Jairo Hernando Cervantes Garcia'
 __email__ = 'muiscaenergy@gmail.com'
 __license__ = 'MIT license'
