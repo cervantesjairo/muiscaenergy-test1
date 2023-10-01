@@ -56,7 +56,7 @@ if __name__ == '__main__':
         emai=find_meta('email'),
         description=find_meta('description'),
         license=find_meta('license'),
-        long_description=open('README.md').read(),
+        # long_description=open('README.md').read(),
         packages=find_packages(),
         zip_safe=False,
         install_requires=['timezonefinder >= 6.2.0',
