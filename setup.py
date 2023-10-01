@@ -5,7 +5,7 @@ import codecs
 
 # python setup.py sdist bdist_wheel --> creates egg, build, dist
 # twine upload dist/* --> upload to pypi
-# https://pypi.org/project/muisca1492-commom
+# https://pypi.org/project/muiscaenergy-commom/
 
 NAME = 'muiscaenergy_common'
 META_PATH = os.path.join(NAME, '__init__.py')
