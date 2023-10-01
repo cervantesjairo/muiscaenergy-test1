@@ -3,7 +3,8 @@ import os
 import re
 import codecs
 
-# python setup.py sdist bdist_wheel
+# python setup.py sdist bdist_wheel --> creates egg, build, dist
+# twine upload dist/* --> upload to pypi
 # https://pypi.org/project/muisca1492-commom
 
 NAME = 'muiscaenergy_common'
