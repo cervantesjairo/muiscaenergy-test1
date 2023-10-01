@@ -1,5 +1,5 @@
 import unittest
-from common.test.timeseries.series_base import TimeSeriesTest
+from muiscaenergy_common.test.timeseries.series_base import TimeSeriesTest
 
 
 if __name__ == '__main__':
