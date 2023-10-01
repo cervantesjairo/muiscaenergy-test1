@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: muiscaenergy-common
-Version: 0.0.1
+Version: 0.0.2
 Summary: common functions for muiscaenergy projects
 Home-page: https://pypi.org/project/muiscaenergy-common/
 Author: Jairo Hernando Cervantes Garcia
@@ -35,3 +35,11 @@ Example usage:
 
      # Generate a time series for a specific geographical location
      df = ts.get_by_latlon()
+
+
+## Learning Material
+# Espanol
+https://www.youtube.com/watch?v=AczMuVzUrkE&ab_channel=SebastianBelmonte
+
+# English
+https://www.youtube.com/watch?v=5KEObONUkik&ab_channel=ArjanCodes
