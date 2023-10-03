@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def parse_custom_freq(freq):
     num = ""
     unit = ""
