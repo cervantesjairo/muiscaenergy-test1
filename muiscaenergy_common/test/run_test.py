@@ -1,10 +1,15 @@
 import unittest
-from muiscaenergy_common.test.timeseries.series_base import TimeSeriesTest
+import os
+
+
+def run_tests():
+    loader = unittest.TestLoader()
+
+    current_dir = os.path.dirname(__file__)
+    suite = loader.discover(start_dir=current_dir, pattern='test_*.py')
+    runner = unittest.TextTestRunner(verbosity=2)
+    result = runner.run(suite)
 
 
 if __name__ == '__main__':
-    loader = unittest.TestLoader()
-    suite = loader.loadTestsFromTestCase(TimeSeriesTest)
-
-    runner = unittest.TextTestRunner()
-    result = runner.run(suite)
+    run_tests()

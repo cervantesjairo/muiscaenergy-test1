@@ -23,7 +23,8 @@ def get_timeseries(ts_from: datetime = None,
     :param lat: Latitude for geographical time zone information.
     :param lon: Longitude for geographical time zone information.
     :param tz: Time zone identifier.
-    :return: A DataFrame containing the generated time series.
+    :return: An Object containing the generated time series.
+    To access its dataframe, add ".df" to the object.
     """
 
     if freq is None or (ts_from and ts_to) is None:
@@ -38,10 +39,11 @@ def get_timeseries(ts_from: datetime = None,
         ts_to = ts_from + pd.Timedelta(parse_custom_freq(freq=freq))
         ts_utc = ts_from.tz_convert('UTC')
 
-        msg_out = (TSm().
-                   append_datetime_utc(ts_utc).
-                   append_datetime_from(ts_from).
-                   append_datetime_to(ts_to))
+        msg_out = (TSm()
+                   .append_datetime_from(ts_from)
+                   .append_datetime_to(ts_to)
+                   .append_datetime_utc(ts_utc)
+                   )
 
         return msg_out
 
@@ -53,10 +55,11 @@ def get_timeseries(ts_from: datetime = None,
         ts_to = ts_from + pd.Timedelta(parse_custom_freq(freq=freq))
         ts_utc = ts_from.tz_convert('UTC')
 
-        msg_out = (TSm().
-                   append_datetime_utc(ts_utc).
-                   append_datetime_from(ts_from).
-                   append_datetime_to(ts_to))
+        msg_out = (TSm()
+                   .append_datetime_from(ts_from)
+                   .append_datetime_to(ts_to)
+                   .append_datetime_utc(ts_utc)
+                   )
 
         return msg_out
 

@@ -4,31 +4,45 @@ Common functions for muiscaenergy projects.
 ## Time Series
 
 Example usage:
-
     from datetime import datetime
-    from muiscaenergy_common.src.timeseries.series_base import TimeSeries
+    from muiscaenergy_common.src.timeseries.base import get_timeseries
 
-    # Create a TimeSeries instance
-    ts = TimeSeries(ts_from=datetime(2023, 9, 30, 12, 0, 0),
-                    ts_to=datetime(2023, 10, 1, 12, 0, 0),
-                    freq='H',
-                    lat=40.7128,
-                    lon=-74.0060,
-                    tz="America/New_York")
 
-     # Generate a time series with ts_from, ts_to and freq
-     df = ts.get_ts()
+    ts_from = datetime(2023, 9, 30, 12, 0, 0)
+    ts_to = datetime(2023, 10, 1, 11, 0, 0)
+    freq = 'H'
+    lat = 52.5200
+    lon = 13.4050
+    tz = 'America/Los_Angeles'
 
-     # Generate a time series with a specific time zone
-     df = ts.get_by_tz()
+    # Get a TimeSeriesMessage object without notion of location
+    ts1 = get_timeseries(ts_from=ts_from,
+                     ts_to=ts_to,
+                     freq=freq)
+    print(ts1.df)
 
-     # Generate a time series for a specific geographical location
-     df = ts.get_by_latlon()
+    # Get a TimeSeriesMessage object with notion of location via lat and lon
+    ts2 = get_timeseries(ts_from=ts_from,
+                     ts_to=ts_to,
+                     freq=freq,
+                     lat=lat,
+                     lon=lon)
+    print(ts2.df)
+
+    # Get a TimeSeriesMessage object with notion of location via tz (timezone)
+    ts3 = get_timeseries(ts_from=ts_from,
+                     ts_to=ts_to,
+                     freq=freq,
+                     tz=tz)
+    print(ts3.df)
 
 
 ## Learning Material
 # Espanol
-https://www.youtube.com/watch?v=AczMuVzUrkE&ab_channel=SebastianBelmonte
+* https://www.youtube.com/watch?v=AczMuVzUrkE&ab_channel=SebastianBelmonte
 
 # English
-https://www.youtube.com/watch?v=5KEObONUkik&ab_channel=ArjanCodes
+* https://www.youtube.com/watch?v=5KEObONUkik&ab_channel=ArjanCodes
+* https://www.youtube.com/watch?v=WhRKSf6I0F0&ab_channel=SpencerPao
+* https://www.youtube.com/watch?v=v4bkJef4W94&ab_channel=DevOpsJourney
+* https://www.youtube.com/watch?v=GIF3LaRqgXo&ab_channel=CodingTech
