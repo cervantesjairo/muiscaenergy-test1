@@ -40,6 +40,7 @@ Example usage:
 ## Learning Material
 # Espanol
 * https://www.youtube.com/watch?v=AczMuVzUrkE&ab_channel=SebastianBelmonte
+* https://www.youtube.com/watch?v=xQGT9RZrBjg&ab_channel=AnartzMugikaLedo-Desarrollo%26Formaci%C3%B3n
 
 # English
 * https://www.youtube.com/watch?v=5KEObONUkik&ab_channel=ArjanCodes
