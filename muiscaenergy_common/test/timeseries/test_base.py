@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime
 from muiscaenergy_common.src.timeseries.base import get_timeseries
-from muiscaenergy_common.src.message.message import TimeSeriesMessage as TSm
+from muiscaenergy_common.src.messages.base import TimeSeriesMessage as TSm
 
 
 class TestGetTimeseries(unittest.TestCase):

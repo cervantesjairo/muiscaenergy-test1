@@ -47,3 +47,10 @@ Example usage:
 * https://www.youtube.com/watch?v=WhRKSf6I0F0&ab_channel=SpencerPao
 * https://www.youtube.com/watch?v=v4bkJef4W94&ab_channel=DevOpsJourney
 * https://www.youtube.com/watch?v=GIF3LaRqgXo&ab_channel=CodingTech
+
+
+## API Documentation
+pip install pdoc
+pdoc --math ./src/muiscaenergy_common -o ./api_docs
+
+python -m pip install -e /Users/andres/Documents/Projects/muiscaenergy_common

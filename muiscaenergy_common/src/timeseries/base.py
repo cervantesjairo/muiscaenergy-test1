@@ -1,4 +1,4 @@
-from muiscaenergy_common.src.message.message import TimeSeriesMessage as TSm
+from muiscaenergy_common.src.messages.base import TimeSeriesMessage as TSm
 from muiscaenergy_common.src.utils.mix import parse_custom_freq
 
 from timezonefinder import TimezoneFinder
